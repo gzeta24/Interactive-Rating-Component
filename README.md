@@ -19,7 +19,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/gzeta24/Interactive-Rating-Component/
 - Live site:
 
 ## My process
