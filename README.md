@@ -14,7 +14,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Screenshot
 
-![solution-screenshot](./screenshot.png)
+![solution-screenshot1](./screenshot1.png)
+![solution-screenshot2](./screenshot2.png)
 
 ### Links
 
