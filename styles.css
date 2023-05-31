@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9375em;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+h1 {
+    color: white;
+    margin: 0px;
+    margin-top: 1.1em;
+    font-size: 1.8em;
+}
+.card {
+    display: flex;
+    background-color: hsl(213, 19%, 15%);
+    flex-direction: column;
+    border-radius: 28px;
+    width: 22.4em;
+    height: 22.4em;
+    padding: 1.9em;
+}
+.card-star-box, .card-values-box-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 51px;
+    height: 51px;
+    background-color: hsl(213, 19%, 19%);
+}
+.card-description {
+    color: hsla(0, 0%, 70%, 100%);
+    line-height: 1.5em;
+}
+.card-values-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card-values-box-value {
+    position: absolute;
+    border: 0;
+    appearance: none;
+}
+.card-values-box-value:hover {
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+}
+.card-values-box-value:checked {
+    background-color: hsl(25, 97%, 53%);
+}
+.card-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 2.6em;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    margin-top: 2rem;
+    border: 0;
+}
+.card-submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+.card-submit-text {
+    margin: 0px;
+    margin-top: 3px;
+}
+.card-value {
+    user-select: none;
+    position: relative;
+    top: 2px;
+}
+.card-value:hover {
+    cursor: pointer;
+}
+.radio-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 51px;
+    border-radius: 100%;
+    color: hsla(0, 0%, 100%, 100%);
+}
+
+/* FINISHED HTML */
+
+#card-finished {
+    align-items: center;
+    justify-content: center;
+}
+.f-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.1rem;
+}
+.f-your-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 19%);
+    height: 30px;
+    margin-top: 30px;
+    width: 200px;
+    color:hsla(25, 97%, 53%, 70%);
+}
+.f-p {
+    color: hsla(0, 0%, 70%, 100%);
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/* MEDIA QUERYS */
+
+@media only screen and (max-width : 360px) {
+    .card-submit {
+        height: 3em;
+    }
+}
